@@ -1,0 +1,4 @@
+cypress/reports/*
+cypress/results/*
+/package*.json
+/**/*.json
