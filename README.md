@@ -4,8 +4,7 @@ This project contains automated test scripts for Cypress . It also generates rep
 
 ## Requirements
 
-- **Node.js** (version 10.8.3 or higher)
-- **npm** (version 10.8.3 or higher)
+- **Node.js** (version 10.8.3) by npm install
 - **Cypress** (version 14.3.0)
 - **eslint** (version 9.24.0)
 - **eslint-plugin-cypress** (version 4.2.1)
