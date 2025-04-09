@@ -51,7 +51,6 @@ Thumbs.db
 cypress/videos
 cypress/screenshots
 cypress/reports
-cypress/results
 screenshots
 cypress.env.json
 .vscode/settings.json
