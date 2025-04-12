@@ -11,4 +11,4 @@ This project contains automated test scripts for Cypress . It also generates rep
 - **prettier** (version 3.5.3)
 - **Mochawesome** for test reports
 **Clone the repository:** https://github.com/sherifmag144/AmazonTesting.git
-- **EmailandPassword-you-will-join-with-them** : make them empty to make you enter your data
+- **EmailandPassword-you-will-join-with-them** : make them empty to enter your data
