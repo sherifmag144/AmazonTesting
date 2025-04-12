@@ -19,7 +19,8 @@
     "prettier": "^3.5.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:amazonUI":  "npx cypress run --spec 'cypress/e2e/test.cy.js'",
+    "test:api": "npx cypress run --spec 'cypress/e2e/api.cy.js'"
   },
   "author": "",
   "license": "ISC"
