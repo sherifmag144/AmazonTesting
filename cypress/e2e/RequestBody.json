@@ -1,0 +1,7 @@
+{
+  "CreateUser": {
+    "name": "test",
+    "job": "QA",
+    "age": "24"
+  }
+}

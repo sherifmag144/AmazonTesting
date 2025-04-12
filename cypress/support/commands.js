@@ -23,3 +23,44 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('POSTrequest', (url, body) => {
+    cy.request({
+        method: 'POST',
+        url: url,
+        failOnStatusCode: false,
+        body: body,
+        headers: {
+            'Content-Type': 'application/json'
+                }
+    }).then((response) => {
+        return response
+    })
+});
+
+Cypress.Commands.add('GETrequest', (url) => {
+    cy.request({
+        method: 'GET',
+        url: url,
+        failOnStatusCode: false,
+        headers: {
+            'Content-Type': 'application/json'
+                }
+    }).then((response) => {
+        return response
+    })
+});
+
+Cypress.Commands.add('PUTrequest', (url, body) => {
+    cy.request({
+        method: 'PUT',
+        url: url,
+        failOnStatusCode: false,
+        body: body,
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }).then((response) => {
+        return response
+    })
+});
